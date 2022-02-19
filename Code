@@ -1,0 +1,26 @@
+# Reading the packages to R
+
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(skimr)
+library(dplyr)
+library(modeest)
+library(DescTools)
+library(data.table)
+
+# reading all the files to R
+
+jan_2022 <- read.csv("202201.csv")
+dec_2021 <- read.csv("202112.csv")
+nov_2021 <- read.csv("202111.csv")
+oct_2021 <- read.csv("202110.csv")
+sep_2021 <- read.csv("202109.csv")
+aug_2021 <- read.csv("202108.csv")
+jul_2021 <- read.csv("202107.csv")
+jun_2021 <- read.csv("202106.csv")
+may_2021 <- read.csv("202105.csv")
+apr_2021 <- read.csv("202104.csv")
+mar_2021 <- read.csv("202103.csv")
+feb_2021 <- read.csv("202102.csv")
+
